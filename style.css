@@ -1,0 +1,1207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* css for the body  tag start from here */
+
+
+body{
+    background-color:seashell;
+    /* width:1500px; */
+    /* width: 100%; */
+}
+
+/* css for the navbar start from here  */
+
+/* navigatation bar  */
+
+    #navbar{
+        display: flex;
+        align-items: center;
+        background-color: black;
+        height: 50px;
+        font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    
+    }
+    
+    
+    /* css for  navigation bar  logo  */
+    
+    
+    
+    .logo{
+        margin: 1px;
+        padding:6px;
+        
+    }
+    .logo img{
+        height: 34px;
+        width: 140px;
+        margin: 12px;
+        padding: 1px;
+    }
+    
+    
+    
+    /*  css for navbar list items */
+    
+    #navbar ul{
+        display: flex;
+        padding: 0.89px 52px;
+    }
+    #navbar ul li{
+        padding: 2px 18px;
+        list-style: none;
+    }
+    
+    #navbar ul li a{
+        color: antiquewhite;
+        list-style: none;
+        padding: 20px 20px;
+        text-decoration: none;
+        padding:  2px 29px;
+        font-size: 2.5vh;
+    }
+    
+     
+    #navbar ul li a:hover{
+        color:black;
+        background-color: white;
+        border-radius: 123px;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Pacifico', cursive;
+        
+    }
+    
+  
+
+
+
+
+/* css for the navbar end here   */
+
+
+/* css for the image which is at the top */
+
+/* home section start  */
+#home{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 28px 23px;
+    margin: 0.2px;
+    height: 250px;
+    
+ }
+ #home::before{
+    content: "";
+    position:absolute;
+    background: url("/background/photo-1610465299993-e6675c9f9efa.jpeg") no-repeat center center/cover;
+    height: 358px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.9;
+ }
+ #home h1{
+    text-align: center;
+    font-size: 29px;
+    color: white;
+    padding:14px;
+ }
+ #home p{
+    padding: 8px;
+    color: whitesmoke;
+ }
+
+
+ /* css for the home end here */
+
+ /*  css for news section start from here  */
+
+
+.newssection{
+    display: grid;
+    margin-top: 12px;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+
+
+}
+
+
+/* css for the news heading */
+
+#newheading{
+    border: 2px solid black;
+    background-color: rgb(176, 255, 176);
+    padding: 11px;
+    margin-top: 60px;
+    /* font-family: 'Bebas Neue', cursive; */
+    font-family: 'Anton', sans-serif;
+
+}
+div h2{
+    text-align: center;
+    
+}
+
+/* css  animation for the  news heading   */
+
+ /* div h2{
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 70%;
+        width: 100%;
+      }
+    
+      75% {
+        font-size: 150%;
+        margin-left: 25%;
+        width: 100%;
+        font-family: cursive; 
+        font-family: 'Anton', sans-serif;
+       }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      } 
+    
+ }  */
+
+
+/* css for the news start from here */
+
+
+/* css for the border for news section */
+
+
+    
+    .box{
+        border: 5px  black;
+        border-style:double;
+        /* background-color: tomato; */
+        /* padding: 1px; */
+        display: flex;
+        align-items: center;
+        justify-content:left;
+        height: 98px;    
+    
+    
+        /* align-items: left; */
+        padding: 3px;
+    }
+    /* css for the images used in news  */
+
+
+div img{
+    height: 85px;
+    width: 110px;
+    padding-top: 4px;
+        
+    
+}
+
+
+/* .mid{
+    display: flex;
+    flex-direction:column;
+    padding-left: 17px;
+    justify-content: left;
+       
+} */
+
+
+
+
+
+.mid{
+    display: flex;
+    flex-direction:column;
+    padding-left: 17px;
+    justify-content: left;
+    /* color: black; */
+
+       
+}
+.mid a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Patrick Hand', cursive;
+}
+
+/* on hover property */
+.mid a:hover{
+    /* text-decoration: none; */
+    font-weight: bold;
+    font-family: 'Patrick Hand', cursive;
+}
+
+
+/* upcoming mobile section start from here */
+
+
+ /* css for the upcoming mobile section start from here  */
+
+
+/* upcomingmobile heading  */
+
+
+h2.heading-upcoming-mobile{
+    margin-top: 25px;
+    display: inline-block;
+    padding: 2px;
+    font-size: 0.8cm;
+    font-family: 'Permanent Marker', cursive;
+margin-bottom: 25px;
+
+}
+h2.heading-upcoming-mobile:hover{
+    color:green;
+
+}
+
+
+
+/* css for the box for upcomingmobile  */
+
+
+.mobile{
+    margin: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-gap: 10px;
+    height: 250px;
+    /* background-color: whitesmoke; */
+}
+
+
+
+.upcomingmobile{
+    font-family: 'El Messiri', sans-serif;
+    border: 2px solid black;
+    /* background-color: turquoise; */
+    background-color: whitesmoke;
+
+}
+
+/* upcoming mobile image  */
+
+
+.upcomingmobile img{
+    padding-top: 20px;
+    padding-left: 89px;
+    height: 150px;
+    width: fit-content;
+}
+
+#oppo{
+    margin-right: 52px;
+}
+
+/* upcoming phone 1 */
+
+
+div.phone-1-name{
+    font-family: 'El Messiri', sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+
+div.phone-1-price{
+    text-align:center;
+    font-family: 'El Messiri', sans-serif;
+
+}
+
+/* upcomingmobile phone 2 */
+
+div.phone-2-name{
+    text-align: center;
+    padding: 5px;
+    font-family: 'El Messiri', sans-serif;
+}
+
+div.phone-2-price{
+    padding-top: 1px;
+    text-align:center;
+    font-family: 'El Messiri', sans-serif;
+
+
+}
+
+/* upcomingmobile phone 3 */
+
+div.phone-3-name{
+    text-align: center;
+    padding: 5px;
+    font-family: 'El Messiri', sans-serif;
+}
+
+div.phone-3-price{
+    padding-top: 1px;
+    text-align:center;
+    font-family: 'El Messiri', sans-serif;
+
+}
+
+/* upcomingmobile phone 4 */
+
+
+div.phone-4-name{
+    text-align: center;
+    padding: 5px;
+    font-family: 'El Messiri', sans-serif;
+}
+
+div.phone-4-price{
+    padding-top: 1px;
+    text-align:center;
+    font-family: 'El Messiri', sans-serif;
+
+}
+
+ /* css to add glowing effect on the add to ccompare button  */
+
+
+.btn-btn{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin-bottom: 5px;
+    margin-top: 8px;
+    /* /* background-color: thistle;  */
+}
+.button-btn{
+    text-decoration: none;
+    position: relative;
+    /* background-color: rgb(176, 255, 176); */
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 00.1em;
+    padding: 2px 6px;
+    transition: 0.5s;
+    /* border: 2px solid red; */
+}
+
+.button-btn:hover{
+    letter-spacing: 0.2em;
+    background: var(--clr);
+    color: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+}
+.button-btn::before{
+    content: '';
+    position: absolute;
+    inset: 1.3px;
+    background-color:silver;
+}
+.button-btn span{
+    position: relative;
+    z-index: 2;
+}
+.button-btn i{
+    position: absolute;
+    inset: 2;
+    display: block;
+}
+
+.button-btn i ::before{
+    content: '';
+    position: absolute;
+    top: -3.5px;
+    left: 80%;
+    width: 10px;
+    height: 5px;
+    transform: translateX(-50%);
+    border: 2px solid var(--clr);
+    background: #27282c;
+    transition: 0.5s;
+}
+.button-btn:hover i::before{
+    width: 20px;
+    left: 20%;
+
+
+}
+.button-btn i ::after{
+    content: '';
+    position: absolute;
+    bottom: -3.5px;
+    left: 20%;
+    width: 10px;
+    height: 5px;
+    border: 2px solid var(--clr);
+    /* background: #27282c; */
+    transition: 0.5s;
+}
+.button-btn:hover i::after{
+    width: 20px;
+    left: 20%;
+    
+
+} 
+
+
+
+
+ /* css for the  top category start from here */
+
+
+  /* top category heading   and making grid for that 
+  font-family: 'Joan', serif;
+  /* cursor:pointer;*/ 
+
+
+#top-category-heading{
+    display: grid;
+    grid-template-columns: 2fr;
+    height: 33px;
+    margin-top: 46px;
+    
+
+}
+
+/* top category heading  */
+
+
+.top-category-heading{
+    /* border: 1px solid black; */
+    /* background-color:#ff6347; */
+    margin-top: 20px;
+margin-bottom: 12px;
+    padding: 5px 19px;
+    font-weight: bold;
+    font-size: 21px;
+    background-color:lightslategrey;
+    border-radius: 10px;
+    
+    font-family: 'DM Serif Text', serif;
+}
+
+ /* css  for the box of top category */
+
+.boxformobile{
+    margin: 50px;
+    display: grid;
+    /* padding-left: 11px; */
+    /* grid-template-columns: 2fr 2fr 2fr 2fr  2fr; */
+    grid-template-columns: repeat(5,2fr);
+        /* grid-gap: 0.1px; */
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    /* border: 2px solid firebrick; */
+}
+ /* css to give border to the top category box */
+
+.boxmobile{
+    border: 2px solid rgb(1, 8, 2);
+    /* background-color: turquoise; */
+    background-color:white;
+    width: 170px;
+    /* height: 940px; */
+ } 
+
+ /* css for adding the image and name in the top catergory box */
+
+ #mobile{
+    align-items: center;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 2px;
+    /* border: 20px solid darkblue; */
+    /* height: 122px; */
+}
+.iphone{
+    width: 75px;
+    height: 100px;
+    padding-left: 1px;
+    padding-top: 3px;
+    margin-left: 1.2cm;
+    /* border: 2px solid rebeccapurple; */
+
+}
+.mobile-name{
+    text-align: center;
+    font-family: 'Joan', serif;
+    /* cursor:pointer; */
+
+}
+
+
+
+#laptop{
+    align-items: center;
+    /* padding-left: 12px; */
+    /* padding-right: 12px; */
+    margin-left: 20px;
+    margin-top: 8px;
+    height: 90px;
+    /* padding-top: 2px; */
+    /* border: 2px solid hotpink; */
+    
+}
+.laptop-name{
+    text-align: center;
+    font-family: 'Joan', serif;
+    /* cursor:pointer; */
+
+}
+
+#tablet{
+    align-items: center;
+    /* padding-left: 12px; */
+    /* padding-right: 12px; */
+    /* padding-top: 2px; */
+    margin-left: 0.92cm;
+    margin-top: 8px;
+    /* border: 2px solid darkgoldenrod; */
+    /* border: transparent; */
+    
+}
+.tablet-name{
+    text-align: center;
+    font-family: 'Joan', serif;
+    /* cursor:pointer; */
+
+} 
+#smart-watch{
+    margin-left: 0.91cm;
+    /* border: 2px solid darkgreen; */
+    margin-top: 8px;
+}
+.smart-watch-name{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Joan', serif;
+    /* cursor:pointer; */
+}
+#headphone{
+    /* border: 2px solid darkmagenta; */
+    margin-left: 0.91cm;
+    margin-top: 8px;
+}
+.headphone-name{
+    text-align: center;
+    font-family: 'Joan', serif;
+    /* cursor:pointer; */
+}
+
+
+/* css for popular mobile section start from here  */
+
+
+/* grid is created for the heading  */
+
+#popular-mobile_heading{
+    display: grid;
+    grid-template-columns: 2fr;
+    height: 33px;
+
+
+}
+
+/* css for popular mobile heading  */
+
+.popular-mobile-heading{
+    /* border: 1px solid black; */
+    background-color:lightslategrey;
+    border-radius: 10px;
+    padding-left: 19px;
+    padding-top: 5px;
+    font-family: 'DM Serif Text', serif;
+    font-size:large;
+    font-weight: bold;
+    /* border-bottom: 56px solid black; */
+}
+
+/* css for the box behind popular mobile heading  */
+.popular-mobile{
+    display: grid;
+    grid-template-columns: 0.89fr 0.89fr 0.89fr 0.89fr 0.89fr ;
+    grid-gap:0px;
+}
+
+/* css to give border to the box*/
+
+
+.grid-for-popular-mobile{
+    background-color:white;
+    border: 2px solid black;
+    margin: 23px;
+    height: 270px;
+    width: 200px;
+}
+
+/* .grid-for-popular-mobile img{
+    padding-top: 20px;
+    padding-left: 89px;
+    height: 150px;
+width: 200px;
+} */
+
+#iphone-13-pro{
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: -1px;
+    height: 190px;
+    width: 155px;
+    /* background-color:; */
+}
+
+#Vivo-X80-Pro{
+    /* border: 2px solid darkgoldenrod; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 31px;
+    margin-top: 22px;
+    height: 160px;
+    width: 140px;
+}
+#s22-ultra{
+    /* border: 2px solid darkblue; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 2px;
+    margin-top: 13px;
+    height: 165px;
+    width: 190px;
+}
+#xiaomi-12-pro{
+    /* border: 2px solid brown ; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 21px;
+    margin-top: 22px;
+    height: 170px;
+    width: 160px;
+}
+#iQOO-9-Pro{
+     /* 2px solid firebrick; */ 
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 22px;
+    height: 140px;
+    width: 150px;
+} 
+
+
+div.popularphone-1-name{
+    font-family: 'El Messiri', sans-serif;
+    text-align: center;
+    padding: 5px;
+    /* border: 2px solid red; */
+}
+
+div.popularphone-1-price{
+    text-align:center;
+    /* border: 2px solid blue; */
+    font-family: 'El Messiri', sans-serif;
+
+}
+
+/* upcomingmobile phone 2 */
+
+div.popularphone-2-name{
+    text-align: center;
+    padding: 5px;
+    /* border: 2px solid red; */
+    font-family: 'El Messiri', sans-serif;
+}
+
+div.popularphone-2-price{
+    padding-top: 1px;
+    text-align:center;
+    /* border: 2px solid blue; */
+    font-family: 'El Messiri', sans-serif;
+
+
+}
+
+/* upcomingmobile phone 3 */
+
+div.popularphone-3-name{
+    text-align: center;
+    padding: 5px;
+    /* border: 2px solid red; */
+    font-family: 'El Messiri', sans-serif;
+}
+
+div.popularphone-3-price{
+    padding-top: 1px;
+    text-align:center;
+    /* border: 2px solid blue; */
+    font-family: 'El Messiri', sans-serif;
+
+}
+
+/* upcomingmobile phone 4 */
+
+
+div.popularphone-4-name{
+    text-align: center;
+    padding: 5px;
+    /* border: 2px solid red; */
+    font-family: 'El Messiri', sans-serif;
+}
+
+div.popularphone-4-price{
+    padding-top: 1px;
+    text-align:center;
+    /* border: 2px solid blue; */
+    font-family: 'El Messiri', sans-serif;
+
+}
+div.popularphone-5-name{
+    text-align: center;
+    padding: 5px;
+    margin-top: 29px;
+    /* border: 2px solid red; */
+    font-family: 'El Messiri', sans-serif;
+}
+
+div.popularphone-5-price{
+    padding-top: 1px;
+    text-align:center;
+    /* border: 2px solid blue; */
+    font-family: 'El Messiri', sans-serif;
+
+}
+
+/* css for popular laptops */
+
+
+#laptop-heading{
+    display: grid;
+    grid-template-columns: 2fr;
+    height: 33px;
+
+}
+
+.laptop-heading{
+    background-color:lightslategrey;
+    border-radius: 10px;
+    padding-left: 19px;
+    padding-top: 5px;
+    font-family: 'DM Serif Text', serif;
+    font-size:large;
+    font-weight: bold;
+}
+
+.popular-laptops{
+    display: grid;
+    grid-template-columns: 2.3fr 2.3fr 2.3fr 2.3fr 2.3fr ;
+}
+
+.popular-laptops-1{
+    /* background-color: rgb(181, 180, 218); */
+    border: 2px solid black;
+    margin: 23px;
+    height:250px;
+}
+#hp-pavilion{
+    /* border: 2px solid red; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width:fit-content; */
+    height: max-content;
+    width: 150px;
+}
+.laptop-1-price{
+    /* border: 2px solid forestgreen; */
+    text-align: center;
+    padding: 7px;
+    font-family: 'Kanit', sans-serif;
+}
+.laptop-1-name{
+    /* border: 2px solid fuchsia; */
+    text-align: center;
+    margin-top: 12px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Kanit', sans-serif;
+}
+
+#asus-tuf{
+    /* border: 2px solid red; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+    height: max-content;
+    width: 150px;
+}
+.laptop-2-price{
+    /* border: 2px solid forestgreen; */
+    margin-top: 7px;
+     text-align: center;
+     font-family: 'Kanit', sans-serif;
+
+}
+.laptop-2-name{
+    /* border: 2px solid fuchsia; */
+    margin-top: 12px;
+     text-align: center;
+     font-family: 'Kanit', sans-serif;
+}
+#Asus-vivobook{
+    /* border: 2px solid red; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+    height: max-content;
+    width: 150px;
+
+}
+.laptop-3-price{
+    /* border: 2px solid forestgreen; */
+    margin: 7px;
+     text-align: center;
+     font-family: 'Kanit', sans-serif;
+
+}
+.laptop-3-name{
+    /* border: 2px solid fuchsia; */
+    margin-top: 12px;
+     text-align: center;
+     font-family: 'Kanit', sans-serif;
+
+}
+#Msi{
+    /* border: 2px solid red; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+    height: max-content;
+    width: 170px;
+    margin-top: 18px;
+    padding-top: 7px;
+    padding-left: 6px;
+
+}
+.laptop-4-price{
+    /* border: 2px solid forestgreen; */
+    margin-top: 20px ;
+     text-align: center;
+     font-family: 'Kanit', sans-serif;
+
+
+}
+.laptop-4-name{
+    /* border: 2px solid fuchsia; */
+    margin-top: 27px;
+     text-align: center;
+     font-family: 'Kanit', sans-serif;
+
+}
+
+#acer-nitro{
+    /* border: 2px solid red; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+    height: max-content;
+    width: 150px;
+
+}
+.laptop-5-price{
+    /* border: 2px solid forestgreen; */
+    margin-top: 7px;
+     text-align: center;
+     font-family: 'Kanit', sans-serif;
+}
+.laptop-5-name{
+    /* border: 2px solid fuchsia; */
+    margin-top: 12px;
+     text-align: center;
+     font-family: 'Kanit', sans-serif;
+}
+/* css for featured  mobile  */
+
+/* featured  mobile heading  */
+
+
+#featured-by-brand{
+    display: grid;
+    grid-template-columns: 2fr;
+    height: 33px;
+
+}
+
+/* css for featured  mobile heading  */
+
+.featured-by-brand{
+    background-color:lightslategrey;
+    border-radius: 10px;
+    padding-left: 19px;
+    padding-top: 5px;
+    font-family: 'DM Serif Text', serif;
+    font-size:large;
+    font-weight: bold;
+}
+
+/* css for the box behind featured  mobile heading  */
+.phone-brand{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+}
+
+/* css to give border to the box*/
+
+
+.box-for-phone-by-brand{
+    /* background-color: rgb(188, 160, 224); */
+    border: 2px solid black;
+    margin: 23px;
+    height: 120px;
+}
+.samsung-logo{
+    /* border: 2px solid gold; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    display: block;
+    margin: auto;
+    height: 1.7cm;
+    padding-top: 2px;
+    width: auto;
+}
+#apple-logo{
+    /* border: 2px solid gold; */
+    display: block;
+    margin: auto;
+    height: 1.8cm;
+    width: auto;
+}
+#realme-logo{
+    /* border: 2px solid darkmagenta; */
+    display: block;
+    margin: auto;
+    margin-top: 11px;
+    height: 1.4cm;
+    width: 2.97cm;
+}
+#oneplus-logo{
+    /* border: 2px solid darkolivegreen; */
+    display: block;
+    margin: auto;
+    height: 1.9cm;
+    width: 2.9cm;
+}
+#xiaomi-logo{
+    /* border: 2px solid firebrick; */
+    margin-top: 11px;
+    display: block;
+    margin: auto;
+    height: 0.8cm;
+    width: 1.86cm;
+    
+}
+#oneplus-logo{
+    margin-top: -6px;
+}
+#xiaomi-logo{
+    margin-top: 19px;
+}
+#samsung-view-detail{
+    /* border: 2px solid red; */
+}
+#apple-view-detail{
+    /* border: 2px solid red; */
+}
+#realme-view-detail{
+    /* border: 2px solid red; */
+    /* /* margin-top: 118cm; * */
+    /* padding-top: 4cm; */
+    margin-top: 119cm;
+}
+#oneplus-view-detail{
+    /* border: 2px solid red; */
+}
+#Xiaomi-view-detail{
+    /* border: 2px solid red; */
+    /* margin-top: cm; */
+}
+.brand-name-1{
+    /* border: 2px solid hotpink; */
+    text-align: center;
+    margin-top: 0.3cm;
+
+}
+.brand-name-2{
+    /* border: 2px solid hotpink; */
+    text-align: center;
+    margin-top: 0.3cm;
+
+}
+.brand-name-3{
+    /* border: 2px solid hotpink; */
+    text-align: center;
+    margin-top: 0.3cm;
+
+}
+.brand-name-4{
+    /* border: 2px solid hotpink; */
+    text-align: center;
+    margin-top: 0.3cm;
+
+}
+.brand-name-5{
+    /* border: 2px solid hotpink; */
+    text-align: center;
+    margin-top: 0.3cm;
+
+}
+.btn-view-all{
+    /* border: 2px solid darkred; */
+    text-align: center;
+margin-top: -3px;
+/* background-color: orangered; */
+}
+.btn-view-all:hover{
+    
+    text-align: center;
+    text-transform: uppercase;
+/* margin-top: 0.4cm; */
+background-color: orangered;
+}
+.view-details{
+    text-decoration: none;
+}
+
+#redmi{
+    margin-top: 0.1cm;
+    /* border: 2px solid red; */
+}
+
+/* css for phone by price  */
+
+
+#phone-by-price{
+    display: grid;
+    grid-template-columns: 2fr;
+    height: 33px;
+
+}
+
+.phone-by-price{
+    background-color:lightslategrey;
+    border-radius: 10px;
+    padding-left: 19px;
+    padding-top: 5px;
+    font-family: 'DM Serif Text', serif;
+    font-size:large;
+    font-weight: bold;
+}
+
+.best-phone-byrange{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+}
+
+.phone-by-range{
+    /* background-color: rgb(147, 209, 118); */
+    border:none;
+    border-radius: 210cm;
+    margin: 23px;
+    height: 110px;
+
+}
+
+.price-img{
+    /* display: block */
+    width: 200px;
+    height: 110px;
+    margin-top: -4px;
+    border-radius: 11px;
+}
+
+
+
+
+
+.footercontent{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.subscribe-search-bar{
+    border: 2px solid grey;
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.781);
+    opacity: 1.98;
+}
+.footer p{
+    color:white;
+}
+
+.footer-heading{
+    margin-top: 12px;
+    padding-top: 23px;
+    padding-left: 15px;
+}
+.about-site{
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.website-promotion{
+    padding: 22px 15px;
+}
+.visit-website{
+    padding: 22px 15px;
+
+}
+
+.subscribe-search-bar{
+    display: flex;
+    background-color: grey;
+
+}
+.fortext{
+    color: rgb(238, 238, 238);
+    font-weight: bold;
+
+}
+
+#searchbar{
+    flex-direction: row;
+    margin-left: 550px;
+    
+}
+.btn{
+    margin: 0.3px;
+    padding: 0.4px;
+    
+}
+.btn:hover{
+    background-color: red;
+    opacity: 0.77;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
