@@ -1,0 +1,276 @@
+/* <--------- topest heading for toggle between home and this page --------> */
+
+
+.top-home-link{
+    display: flex;
+    /* padding:    0.1px 22px; */
+    /* padding-top: 1px; */
+    padding-left: 12px;
+    /* border: 2px solid black; */
+    height: 70px;
+    
+}
+
+/* <--------- topest heading of the anchor tag  --------> */
+
+
+a{
+    text-decoration: none;
+}
+
+/* <--------- topest home section --------> */
+
+
+.home{
+    
+    font-size:  15px;
+    padding-top: -2px; 
+    font-family: 'Oswald', sans-serif;
+    /* border: 2px solid firebrick; */
+
+}
+
+/* <--------- topest heading  operator section --------> */
+
+
+.operator{
+
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    font-size :15px;
+}
+
+/* <--------- topest heading for the news section  --------> */
+
+
+.news{
+    font-size: 15px;
+    padding-top: 1px;
+    /* margin-top: ;.3 */
+    display: block;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
+/* <--------- box for the text best phone under 12000  --------> */
+
+body{
+    background-color: #ECECEC;
+}
+.topcontainer{
+    display: grid;
+    grid-template-columns: 3fr ;
+    /* background-color: white; */
+}
+
+/* <--------- css to give border to the box  --------> */
+
+
+.top-box{
+    border: 2px solid gray;
+    background-color: white;
+    padding-bottom: 3px;
+    padding-top: 4px;
+    margin-bottom: 12px;
+}
+
+
+.top-box >h4{
+    /* border: 2px solid red; */
+    
+    margin-top: -1px;
+    padding: 2px 3px ;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+
+.best-mobile-under15-para{
+    /* border: 2px solid darkblue; */
+    font-size: 14.5px;
+    padding-top: 12px;
+    font-family: 'Nanum Myeongjo', serif;
+    color: black;
+    opacity: 3;
+    padding-bottom: 10px;
+    margin-top: -11px;
+}
+
+
+
+/* ------------------------container box ------------------------------ */
+
+
+
+.container{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 4fr 0.5fr ;
+}
+.box{
+    border: 0.9px solid grey;
+    background-color: white;
+}
+#box-1{
+    background-color: #ECECEC;
+}
+#box-4{
+    background-color: #ECECEC;
+}
+
+     /* -----------------------css for the mobile specifiaction start from here --------------- */
+
+
+                /* css to give the border to the box for mobile 1  */
+.box-for-mob-1{
+    border: 1.2px solid black;
+    /* border: 4px solid grey; */
+    height: fit-content;
+    width:fit-content ;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+            /* css for the content in the box */
+
+.content-for-mob-1{
+    display: flex;
+}
+
+                /* css for the image of mobile 1  */
+
+
+.content-for-mob-1 >img{
+    height: 119px;
+    /* border: 2px solid rosybrown; */
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+
+                    /* css for the mobile name and specs  */
+
+
+.mobi-name-and-spec{
+    /* border: 2px solid red; */
+    width:fit-content;
+    height: fit-content;
+    /* margin-top: -0.6cm; */
+    font-size: 12px;
+    margin-left: 12px;
+    padding-left: 12px;
+    /* background-color: silver; */
+}
+
+                /* css for the mobile  1 name  */
+.mob-name{
+    /* border: 2px solid firebrick; */
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 5px;
+    width:320px;
+    margin-left: 12px;
+    padding-left: 12px;
+    font-size: 20px;
+    /* height: 3px; */
+}
+
+
+          /* css for the android text  */
+
+span{
+    /* border: 2px solid darkgoldenrod; */
+    font-size: 12px;
+    margin-top: -3cm;
+    color: black;
+}
+
+
+.mobile-version{
+    /* border: 2px solid yellowgreen; */
+    margin-top: -0.6cm;
+    font-size: 12px;
+    margin-left: 12px;
+    padding-left: 12px;
+}
+                 /* css for the specification start from here */
+
+
+                           /* box for mobile 1  */
+
+
+.specs-for-mobile-1{
+    margin-top: -0.9cm;
+    /* border: 2px solid darkblue ; */
+    margin-left: 2.9cm;
+    /* width: 300px; */
+    display: grid;
+    grid-template-columns: 0.6fr 0.6fr 0.6fr 0.6fr ;
+    grid-gap: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+} 
+
+.specs-box{
+    background-color:  #f1f1f1;
+    /* border: 2px solid yellow; */
+    border-radius: 8px;
+    height: fit-content;
+    /* width: max-content; */
+    
+
+}
+
+
+.specs-box-1{
+    margin-top: -0.1cm;
+    margin-left: -0.1cm; 
+    /* border: 2px solid fuchsia; */
+}
+
+
+ /* css for the performance specs of mob-1  */ 
+
+
+.performance{
+    margin-top: -0.1cm;
+    margin-left: -0.1cm; 
+    /* border: 2px solid fuchsia; */
+
+}
+
+
+.heading{
+    text-align: center;
+    /* border: 2px solid red; */
+    margin-top: 21px;
+    margin-left:0.2cm;
+}
+
+.list-item-for-mob-1{
+    /* border: 2px solid goldenrod; */
+    font-size: 13px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: -0.1cm;
+    /* font-family: 'Literata', serif; */
+    /* font-family: 'Josefin Slab', serif; */
+    
+
+}
+
+
+.mob-1-price{
+    /* margin-top: 1cm; */
+    margin-left: 320px;
+    /* border: 2px solid rgb(0, 195, 255); */
+    padding-right: 12px;
+    font-family: 'Bangers';
+    padding-top: 12px;
+    font-style: bold;
+    color: rgb(255, 0, 0);
+}
+
